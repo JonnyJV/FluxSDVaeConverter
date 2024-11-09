@@ -1,0 +1,9 @@
+# .gitignore
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore large model files if stored locally
+*.pt
+*.safetensors
